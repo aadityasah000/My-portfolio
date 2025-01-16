@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65028c4f1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> -->
+            </ul>
+            <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Aaditya Sah</span><br>From Lahan,Nepal.</h1>
+        </div>
+    </div>
+</div>
+<!-------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/my2.jpg" height="400px" width="300px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Aaditya Sah! Currently a B.Tech student in Computer Science and engineering with a passion for Full-stack development and data analysis. I thrive on turning complex data into actionable insights and building intuitive ,high-performance applications.
+
+                    With a solid foundation in both front-end and backend development, I am skilled at creating seamless user experiences, while my data analysis expertise allows me to drive informed decisions through a data-driven approach. I'm continually expanding my skill set, staying updated with industry trends, and I'm eager to bring innovative ideas to every project I undertake.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - current</span><br>UI/UX Design Training Institute</li>
+                        <li><span>2022 - 2023</span><br>Team Lead at Svcet App</li>
+                        <li><span>2022 - 2025</span><br>Internship at L&T EduTech</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>UI Designing from home</li>
+                        <li><span>2025</span><br>Graduate From SVCET College</li>
+                        <li><span>2024</span><br>Build the Personal Portfolio Website</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------services---------->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur officiis dolores ipsam incidunt sapiente, repellendus vitae cupiditate? Itaque eum enim maxime sed nesciunt inventore molestiae explicabo soluta harum exercitationem?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur officiis dolores ipsam incidunt sapiente, repellendus vitae cupiditate? Itaque eum enim maxime sed nesciunt inventore molestiae explicabo soluta harum exercitationem?</p>
+                <a href="#">Learn more</a>
+            </div><div>
+                <i class="fa-brands fa-app-store"></i>
+                <h3>App Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur officiis dolores ipsam incidunt sapiente, repellendus vitae cupiditate? Itaque eum enim maxime sed nesciunt inventore molestiae explicabo soluta harum exercitationem?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------portfolio------>
+<div id="Portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/img1.jpg">
+                <div class="layer">
+                    <h4>Social Media App</h4>
+                    <p>The app connects you to the<br> talented people around the world.<br>Download it from Play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/img2.jpg">
+                <div class="layer">
+                    <h4>Music App</h4>
+                    <p>The app connects you to the<br> talented people around the world.<br>Download it from Play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/img3.jpg">
+                <div class="layer">
+                    <h4>Online Shopping</h4>
+                    <p>The app connects you to the<br> talented people around the world.<br>Download it from Play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-share-from-square"></i>aadityasah000@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8544437066 / +977 9824715472</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aaditya.sah.37"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/aaditya_sah.7/profilecard/?igsh=MXY2dnBzcTJnZXYxYQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aaditya-sah-198147337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/resume_updated.pdf" download class="btn btn2">Download CV</a>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Aaditya. Made with<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL='https://script.google.com/macros/s/AKfycbxflEJynmvbjmntjdEJVTtNIFqts9yAVDwbe_y7iCBQ1ti7emEr19f33gefbqG75Cidkg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('Submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then (response => {
+            msg.innerHTML= "message sent sucessfully."
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
